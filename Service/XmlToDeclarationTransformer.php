@@ -12,7 +12,7 @@ use KCH\PCC3\Deklaracja;
 class XmlToDeclarationTransformer extends AbstractTransformer
 {
     /**
-     * Transform method XML -> Deklaracja object.
+     * Transform method XML to KCH\PCC3\Deklaracja object.
      *
      * @param string $xml Xml declaration string
      *

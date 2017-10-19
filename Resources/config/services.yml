@@ -2,10 +2,10 @@ parameters:
     kch.bundle.pcc3.declarationToXml.transformer.declaration.class: KCH\PCC3\Deklaracja
 
 services:
-    kch.bundle.pcc3.declarationToXml.transformer:
+    kch.bundle.pcc3.declarationtoxml.transformer:
         class: KCH\Bundle\PCC3Bundle\Service\DeclarationToXmlTransformer
         arguments: [%kch.bundle.pcc3.declarationToXml.transformer.declaration.class%]
 
-    kch.bundle.pcc3.xmlToDeclaration.transformer:
+    kch.bundle.pcc3.xmltodeclaration.transformer:
         class: KCH\Bundle\PCC3Bundle\Service\XmlToDeclarationTransformer
         arguments: [%kch.bundle.pcc3.declarationToXml.transformer.declaration.class%]

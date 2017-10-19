@@ -5,6 +5,9 @@ use KCH\Bundle\PCC3Bundle\Service\XmlToDeclarationTransformer;
 use KCH\PCC3\Deklaracja;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @codeCoverageIgnore
+ */
 class XmlToDeclarationTransformerTest extends TestCase
 {
     public function testSimpleGenerationEmptyDeclaration()
